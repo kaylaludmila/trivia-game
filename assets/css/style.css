@@ -1,3 +1,19 @@
-.container {
-	background-image: url("https://raw.githubusercontent.com/kaylaludmila/Basic-Portfolio/master/assets/images/hangman.jpg");
+body {
+	background-image: url("https://raw.githubusercontent.com/kaylaludmila/trivia-game/master/assets/images/disney-bg.jpg");
+	background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#header-text {
+	padding-top: 70px;
+}
+
+#start {
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.expert{
+	color:white;
+	margin-left: 40px;
 }
