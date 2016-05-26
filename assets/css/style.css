@@ -1,6 +1,6 @@
 body {
 	background-image: url("https://raw.githubusercontent.com/kaylaludmila/trivia-game/master/assets/images/disney-bg.jpg");
-	background-size: 100%;
+	background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -9,11 +9,46 @@ body {
 }
 
 #start {
-	margin-top: 10px;
+	margin-top: 15px;
 	margin-left: 50px;
+	background-color: purple;
 }
 
 .expert{
 	color:white;
-	margin-left: 40px;
+	margin-left: 35px;
+}
+
+.question-box{
+	background: #666ac5; 
+	color: white;
+ 	margin-top: 10px;
+ 	margin-left: 110px;
+	border-style: solid;
+	padding: 30px; 
+}
+
+#header-questions{
+	margin-top: 50px;
+	margin-left: 90px;
+	margin-bottom: 15px;
+}
+
+#done {
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.panel{
+	color:black;
+}
+
+.answer-box{
+	background: #666ac5; 
+	color: white;
+ 	margin-top: 10px;
+ 	margin-left: 110px;
+	border-style: solid;
+	padding: 30px; 
+	text-align: center;
 }

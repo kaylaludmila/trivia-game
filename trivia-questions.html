@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Trivia Questions2</title>
+
+
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<div class="row">
+		<div class="col-md-4">
+				<img src="assets/images/one-line.png" class="img-responsive" alt="Responsive image" id="header-questions">
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div id="results" class="col-md-4 answer-box">
+				<h1> Time is up! <br> Game Over </h1><hr>
+			  <h3> Correct Answers </h3> 
+			  <span id="correctAnswer"></span>
+			  <h3> Incorrect Answers </h3> 
+			  <span id="wrongAnswer"></span>
+			  <h3> Unanswered Questions </h3> 
+			  <span id="unanswered"></span>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 question-box">
+
+		<form id="quiz">
+			
+			<div id="display"><h3>00</h3></div><h3> seconds remain </h3><hr>
+
+			<div class="question">What is the name of Woody's owner in Toy Story?</div>
+			<input id="q1_1" type="radio" name="question1" value="wrong"> Anna<br>
+			<input id="q1_2" type="radio" name="question1" value="wrong"> Alex<br>
+			<input id="q1_3" type="radio" name="question1" value="correct"> Andy<br>
+			<input id="q1_4" type="radio" name="question1" value="wrong"> Aaron<hr>
+
+			<div class="question">Whose tea party does Alice attend?</div>
+			<input id="q2_1" type="radio" name="question2" value="wrong"> Rabbit<br>
+			<input id="q2_2" type="radio" name="question2" value="wrong"> Cheshire Cat<br>
+			<input id="q2_3" type="radio" name="question2" value="wrong"> Queen of Hearts<br>
+			<input id="q2_4" type="radio" name="question2" value="correct"> Mad Hatter<hr>
+
+			<div class="question">What does Mary Poppins say helps the medicine go down?</div>
+			<input id="q3_1" type="radio" name="question3" value="wrong"> Syrup<br>
+			<input id="q3_2" type="radio" name="question3" value="correct"> Sugar<br>
+			<input id="q3_3" type="radio" name="question3" value="wrong"> Singing<br>
+			<input id="q3_4" type="radio" name="question3" value="wrong"> Supper<hr>
+
+			<div class="question">What puts Snow White into a deep sleep?</div>
+			<input id="q4_1" type="radio" name="question4" value="correct"> Poisoned Apple<br>
+			<input id="q4_2" type="radio" name="question4" value="wrong"> A Kiss<br>
+			<input id="q4_3" type="radio" name="question4" value="wrong"> Spindle<br>
+			<input id="q4_4" type="radio" name="question4" value="wrong"> The Hunstman<hr>
+
+			<div class="question">What does Remy the rat in Ratatouille dream of becoming?<div>
+			<input id="q5_1" type="radio" name="question5" value="wrong"> King<br>
+			<input id="q5_2" type="radio" name="question5" value="wrong"> Dancer<br>
+			<input id="q5_3" type="radio" name="question5" value="correct"> Chef<br>
+			<input id="q5_4" type="radio" name="question5" value="wrong"> Teacher<hr>
+
+			<div class="question">The villain, Hooper, appears in which Disney film?</div>
+			<input id="q6_1" type="radio" name="question6" value="wrong"> Princess and the Frog<br>
+			<input id="q6_2" type="radio" name="question6" value="correct"> A Bug's Life<br>
+			<input id="q6_3" type="radio" name="question6" value="wrong"> Sword in the Stone<br>
+			<input id="q6_4" type="radio" name="question6" value="wrong"> Pocahontas<hr>
+			
+			<div class="question">What does Sebastian the crab ultimately want Eric to do to Ariel?</div>
+			<input id="q7_1" type="radio" name="question7" value="wrong"> Send Her Home<br>
+			<input id="q7_2" type="radio" name="question7" value="wrong"> Sing to Her<br>
+			<input id="q7_3" type="radio" name="question7" value="wrong"> Say Her Name<br>
+			<input id="q7_4" type="radio" name="question7" value="correct"> Kiss Her<hr>
+			
+			<div class="question">Name the Disney character that sang, 'One Day My Prince Will Come'?</div>
+			<input id="q8_1" type="radio" name="question8" value="correct"> Aurora<br>
+			<input id="q8_2" type="radio" name="question8" value="wrong"> Rapunzel<br>
+			<input id="q8_3" type="radio" name="question8" value="wrong"> Jasmine<br>
+			<input id="q8_4" type="radio" name="question8" value="wrong"> Mulan<hr>
+		</form>
+
+	<div class="row">
+  	<div class="btn btn-info btn-lg" id="done">Done!</a>
+	</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"> </script>
+</body>
+</html>
